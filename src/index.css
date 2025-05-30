@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 991px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(210, 60%, 98%);
+  padding: 62px 355px 88px;
+  font-family: "Plus Jakarta Sans";
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width : 800px) {
+  body {
+    min-height: 901px;
+    background-color: white;
+    padding: 24px 18px 13px;
+  }
+}
